@@ -115,31 +115,6 @@ Follow these instructions to set up and run the project on your local machine.
 
 ---
 
-## 🚀 Usage
-
-You can generate images using either the provided Jupyter Notebook for an interactive experience or the main Python script for direct execution.
-
-### Jupyter Notebook
-
-The `sdxlhybrid.ipynb` notebook provides a step-by-step walkthrough of the entire pipeline, from prompt input to final image generation. It's the best way to understand and experiment with the different components of the model.
-
-1.  Start Jupyter Lab:
-    ```bash
-    jupyter lab
-    ```
-2.  Open `sdxlhybrid.ipynb` and run the cells sequentially.
-
-### Python Script
-
-The `sdxl_improved.py` script contains the main generation pipeline. You can run it directly from the command line.
-
-```bash
-python sdxl_improved.py --prompt "Your detailed interior design prompt here" --output_path "outputs/my_image.png"
-```
-Check the script for other available arguments and options.
-
----
-
 ## 🔮 Future Work
 
 As detailed in our paper, future enhancements for this project could include:
